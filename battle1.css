@@ -1,0 +1,45 @@
+body {
+    background-color: #6cb3a9;
+}
+div#main {
+    width: 250px;
+    height: 100px;
+    background-color: #781728;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div#main::after {
+    content: "";
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    background-color: #ffffff;
+    top: 60%;
+    right: -10%;
+    transform: translate(0%, -10%);
+    border-radius: 0 0 12rem 12rem;
+}
+div#main::before {
+    content: "";
+    width: 295px;
+    height: 147px;
+    position: inherit;
+    background-color: #d25b70;
+    bottom: 70px;
+    right: -22px;
+    transform: translate(0%, -5%);
+    border-radius: 12rem 12rem 0 0;
+}
+.ball {
+    width: 70px;
+    height: 70px;
+    background-color: #f6df96;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -65%);
+    border-radius: 50%;
+    border: 10px solid #781728;
+}
