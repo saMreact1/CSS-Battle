@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>battle 2</title>
+        <style>
+            body {
+                background-color: #0b2429;
+            }
+            div {
+                width: 300px;
+                height: 300px;
+                background-color: #998235;
+                border-radius: 50% 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%) rotate(45deg);
+            }
+            div::after {
+                content: "";
+                width: 70px;
+                height: 70px;
+                background-color: #0b2429;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+                border: 40px solid #e6930e;
+                outline: 20px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
