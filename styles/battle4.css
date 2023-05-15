@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 20px;
     padding: 0;
     background-color: #222730;
 }
@@ -16,7 +16,7 @@ div::before {
     background-color: #4caab3;
     border: 70px solid #222730;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
 }
@@ -27,7 +27,26 @@ div::after {
     background-color: #393e46;
     position: absolute;
     border-radius: 50%;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+i {
+    font-size: 50px;
+}
+a.left {
+    position: absolute;
+    top: 45%;
+    left: 20px;
+}
+a.right {
+    position: absolute;
+    right: 20px;
+    top: 45%;
+}
+a:hover {
+    opacity: 50%;
+}
+i.fa-house {
+    font-size: 30px;
 }

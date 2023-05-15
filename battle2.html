@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/a341ab46f5.js" crossorigin="anonymous"></script>
         <title>battle 2</title>
         <style>
             body {
@@ -29,9 +33,32 @@
                 border: 40px solid #e6930e;
                 outline: 20px solid black;
             }
+            i {
+                font-size: 50px;
+            }
+            a.left {
+                position: absolute;
+                top: 45%;
+                left: 20px;
+            }
+            a.right {
+                position: absolute;
+                right: 20px;
+                top: 45%;
+            }
+            a:hover {
+                opacity: 50%;
+            }
+            i.fa-house {
+                font-size: 30px;
+                margin: 20px;
+            }
         </style>
     </head>
     <body>
+        <a class="home" href="index.html"><i class="fas fa-house"></i></a>
+        <a class="left" href="battle1.html"><i class="fas fa-arrow-circle-left"></i></a>
+        <a class="right" href="battle3.html"><i class="fas fa-arrow-circle-right"></i></a>
         <div></div>
     </body>
 </html>

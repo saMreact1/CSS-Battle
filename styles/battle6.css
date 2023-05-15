@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+div {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(222, 126, 9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+div::before {
+    content: "";
+    width: 300px;
+    height: 50px;
+    background-color: rgb(102, 139, 47);
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+div::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: burlywood;
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+i {
+    font-size: 50px;
+}
+a.left {
+    position: inherit;
+    top: 45%;
+    left: 20px;
+}
+a.right {
+    position: inherit;
+    right: 20px;
+    top: 45%;
+}
+a:hover {
+    opacity: 50%;
+}
+i.fa-house {
+    font-size: 30px;
+    margin: 20px;
+}
