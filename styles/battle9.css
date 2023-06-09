@@ -16,7 +16,7 @@ body {
     background-color: yellow;
     border-radius: 50%;
     margin: 15px 10px;
-    animation: animateDots 1.8s ease-in-out infinite;
+    animation: animateDots 1.0s ease-in-out infinite;
     animation-delay: 300ms;
 }
 .dot:first-child {
